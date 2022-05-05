@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="The Anh">
+    <meta name="description" content="My resume website">
+    <meta name="country" content="VietNam">
+    <title>The Anh Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="menu_text">My Resume</h1>
+    <nav>
+        <a class="float_left" href="#contact">Contact</a>
+        <a class="float_left" href="#education">Education</a>
+        <a class="float_right" href="#score_2">Score semesterII</a>
+        <a class="float_right" href="#score_1">Scores semesterI</a>
+    </nav>
+    <img class="heading-img" src="./assets/imgs/birthpicture.jpg" alt="birthpicture">
+    <hr>
+    <h2 id="contact">Contact information</h2>
+    <p><em>I am working in the information technology field.</em></p>
+    <ul>
+        <li><strong>Fullname:</strong> The Anh</li>
+        <li><strong>Country:</strong> VietNam</li>
+    </ul>
+    <hr>
+    <h2 id="education">Education</h2>
+    <ol>
+        <li>Ha Bang Junior Highschool</li>
+        <li>Hai Ba Trung Highschool</li>
+        <li>Meio University</li>
+    </ol>
+    <hr>
+    <h2 id="score_1">Score semesterI</h2>
+    <table>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Math</th>
+            <th rowspan="2">Physics</th>
+            <th rowspan="2">IT</th>
+        </tr>
+        <tr>
+            <th>Math1</th>
+            <th>Math2</th>
+        </tr>
+        <tr>
+            <th>2019</th>
+            <td>8</td>
+            <td>0</td> <!-- vì ta chia cột math thành 2 nên ta cần thêm 1 td nữa -->
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th>2020</th>
+            <td>6</td>
+            <td>0</td>
+            <td>5</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th>2021</th>
+            <td>8</td>
+            <td>0</td>
+            <td>9</td>
+            <td>7</td>
+        </tr>
+    </table>
+
+
+    <h2 id="score_2">Score semesterII</h2>
+    <table>
+        <tr>
+            <th rowspan="2"></th>
+            <th rowspan="2">Music</th>
+            <th colspan="2">Biology</th>
+            <th colspan="3">Geography</th>
+        </tr>
+        <tr>
+            <th>Biology1</th>
+            <th>Biology2</th>
+            <th>Geography1</th>
+            <th>Geography2</th>
+            <th>Geography3</th>
+        </tr>
+        <tr>
+            <th>2019</th>
+            <td>10</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>9</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <th>2020</th>
+            <td>10</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>9</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <th>2020</th>
+            <td>10</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>9</td>
+            <td>8</td>
+        </tr>
+    </table>
+    <footer>
+        <p>Contact me by <a href="mailto:hoanbao1999@gmail.com">Email</a></p>
+    </footer>
+
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        /* tr:nth-child(odd) {
+            background-color: #dddddd;
+        } */
+
+        .heading-img {
+            width: 390px;
+            height: 280px;
+        }
+    </style>
+</body>
+
+</html>
